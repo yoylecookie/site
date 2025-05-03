@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="icon" href="https://file.garden/Z_Zkhskjxktxt43S/Byte%20Studios/glow.png" type="image/png">     
+        <title>Byte Studios | Games
+            </title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Smooch+Sans:wght@100..900&display=swap'); a {
+
+color:white;
+
+text-decoration:none;
+
+}
+
+.nav {
+             height: 100%;
+  width: 270px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -270px;
+  background-color: #111;
+  color:white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition-duration:0.4s;
+  transition-timing-function: ease;
+        }
+        
+        .links {
+            cursor:pointer;
+            margin-left:10px;
+            margin-bottom:10px;
+            transition-duration:0.4s;
+            font-size:30px;
+            font-family:"Smooch Sans";
+        }
+        
+        .links:hover {
+           margin-left:10px;
+            margin-bottom:10px;
+            font-size:40px;
+            font-family:"Smooch Sans"; 
+        }
+  
+        a {
+            color:lightblue;
+        }
+        
+        .g:hover {
+            transition-duration:0.4s;
+            border:white solid 3px;
+        }
+        
+        .g {
+            transition-duration:0.4s;
+             border:white solid 1px;
+        }
+        
+        .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+        
+        body {
+            background-image:url(https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?semt=ais_hybrid&w=740);
+            color:white;
+            text-align:center;
+        }
+        </style>
+        </head>
+        <body>
+            <div class="nav" id="nav">
+            <p style="position:relative; margin-left:230px; top:-30px; font-size:25px; cursor:pointer;" onclick="closeNav()">x</p>
+            <a href="index.html" style="color:white;"><div class="links">About Us<br></div></a>
+            <a href="byteost.html" style="color:white;"><div class="links">ByteOST<br></div></a>
+            <a href="assets.html" style="color:white;"><div class="links">Assets<br></div></a>
+            <div style="color:#ffffff9b; margin-left:10px;
+            margin-bottom:10px;
+            transition-duration:0.4s;
+            font-size:30px;
+            font-family:'Smooch Sans';">Games<br></div>
+            </div>
+            <p onclick="openNav()" style="cursor:pointer; background-color:white; width:30px; font-size:30px; padding:10px; border-radius:50px;
+   position: fixed; margin-left:10px; color:black;">&#9776;</p>
+
+            
+            <img src="https://file.garden/Z_Zkhskjxktxt43S/Byte%20Studios/glow.png" width="151"><h1>Byte Games</h1>
+            
+            <iframe src="" width="485" height="402" id="game"></iframe>
+            
+            <div class="flex-container">
+            <img src="https://uploads.scratch.mit.edu/get_image/project/1117005029_216x163.png?" style="margin-top:10px; margin-left:10px;" onclick="getElementById('game').src = 'https://scratch.mit.edu/projects/1117005029/embed'" class="g">
+            
+            <img src="https://cdn2.scratch.mit.edu/get_image/project/1143439273_216x163.png?" style="margin-top:10px; margin-left:10px;" onclick="getElementById('game').src = 'https://scratch.mit.edu/projects/1143439273/embed'" class="g">
+            
+            <img src="https://cdn2.scratch.mit.edu/get_image/project/1154723495_216x163.png?v" style="margin-top:10px; margin-left:10px;" onclick="getElementById('game').src = 'https://scratch.mit.edu/projects/1154723495/embed'" class="g">
+            
+            <img src="https://cdn2.scratch.mit.edu/get_image/project/1166545718_216x163.png?" style="margin-top:10px; margin-left:10px;" onclick="getElementById('game').src = 'https://scratch.mit.edu/projects/1166545718/embed'" class="g">
+            </div>
+            <section style="background-color:		#899499; padding:50px; margin-top:12px;">
+                <h1>Credits</h1>
+                <p>Background - Freepik</p>
+                <a href="https://www.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_12804207.htm#fromView=keyword&page=1&position=1&query=Gaming+Background" target="_blank">Visit</a>
+                <p>Games - Scratch</p>
+                
+                <a href="https://scratch.mit.edu/users/Byte_Studios_OSC/projects" target="_blank">Visit</a>
+                </section>
+            <script>
+                function openNav() {
+                    document.getElementById('nav').style.left="0";
+                }
+                
+                function closeNav() {
+                    document.getElementById('nav').style.left="-270px";
+                }
+                </script>
+            </body>
+    </html>
