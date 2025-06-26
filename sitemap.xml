@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://byteosc.pages.dev/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/byteost</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/assets</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/games</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/deplauncher</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/dl</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://byteosc.pages.dev/ai</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>
